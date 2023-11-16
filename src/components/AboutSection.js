@@ -1,9 +1,9 @@
 // AboutSection.js
 import React from 'react';
 import './AboutSection.css';
-import { Icon } from '@iconify/react';
-import bearHeadIcon from '@iconify/icons-game-icons/bear-head';
-import chargingBullIcon from '@iconify/icons-game-icons/charging-bull';
+// import { Icon } from '@iconify/react';
+// import bearHeadIcon from '@iconify/icons-game-icons/bear-head';
+// import chargingBullIcon from '@iconify/icons-game-icons/charging-bull';
 
 const AboutSection = () => {
   return (
