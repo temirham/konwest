@@ -1,0 +1,35 @@
+/* ReviewsSection.css */
+.reviews-section {
+    padding: 2em;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+  }
+
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .review-text {
+    font-size: 1.2em;
+  }
+  
+  .review-author {
+    font-style: italic;
+    margin-top: 1em;
+  }
+  

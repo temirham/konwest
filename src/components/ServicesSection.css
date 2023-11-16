@@ -1,0 +1,31 @@
+
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-icon {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .card-content {
+    font-size: 1.1em;
+  }

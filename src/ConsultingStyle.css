@@ -1,0 +1,99 @@
+/* ConsultingStyle.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.consulting-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.consulting-header {
+  min-height: 320px;
+  background: #847462 no-repeat center/cover url("./img/1725003_12120.svg");
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.consulting-header h1 {
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Установим z-index, чтобы текст оказался поверх изображения */
+}
+
+.consulting-header::before {
+  content: ''; /* Псевдоэлемент для затемнения изображения */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Затемнение с 30% непрозрачности */
+}
+
+.consulting-nav {
+  background-color: #1a1a1a;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.consulting-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.consulting-nav a:hover {
+  background-color: #333;
+}
+
+.consulting-section {
+  padding: 2em;
+}
+
+.consulting-footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-column {
+  margin: 1em;
+}
+
+.footer-column h2 {
+  font-size: 1.5em;
+}
+
+.iconify {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
