@@ -1,4 +1,32 @@
 /* ConsultingStyle.css */
+
+
+/* ConsultingStyle.css */
+
+/* ... (ваш текущий код) ... */
+
+/* Определение медиа-запроса для устройств с шириной экрана менее 768 пикселей (мобильные устройства) */
+@media only screen and (max-width: 1100px) {
+  .consulting-nav {
+    flex-direction: column; /* Столбец вместо строки для навигации на мобильных устройствах */
+    align-items: center;
+  }
+
+  .consulting-nav a {
+    margin: 0.5em 0; /* Уменьшение отступов между элементами навигации */
+  }
+
+  .consulting-section {
+    padding: 1em; /* Уменьшение отступов для секций на мобильных устройствах */
+  }
+
+  .consulting-header h1 {
+    font-size: 1.8em; /* Уменьшение размера заголовка в шапке на мобильных устройствах */
+  }
+}
+
+
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
