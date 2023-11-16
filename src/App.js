@@ -31,25 +31,11 @@ const App = () => {
       </nav>
 
       {currentSection === 'about' && <AboutSection /> }
-      {currentSection === 'stock' && (
-        <section id="stock" className="consulting-section">
-          <h2>Текущий курс акций и валют</h2>
-          <TradingViewWidget />
-        </section>
-      )}
+      {currentSection === 'stock' && <div style={{marginTop: '10vh', alignContent: 'center', height: '50vh', marginLeft: '1.5vh', marginRight: '1.5vh'}}><TradingViewWidget/></div>}
       {currentSection === 'services' && <ServicesSection />}
       {currentSection === 'reviews' && <ReviewsSection />}
 
       <footer className="consulting-footer">
-        {/* <div className="footer-column">
-          <h2>Социальные сети</h2>
-          <a href="ссылка на ваш ВКонтакте" target="_blank" rel="noopener noreferrer">
-            <Icon icon={vkIcon} style={{ width: '3em', height: '3em', marginRight: '1em' }} />
-          </a>
-          <a href="ссылка на ваш Telegram" target="_blank" rel="noopener noreferrer">
-            <Icon icon={telegramIcon} style={{ width: '3em', height: '3em', marginRight: '1em' }} />
-          </a>
-        </div> */}
         <ContactSection />
 
         <p className="footer-column">&copy; 2023 Общество с ограниченной ответственностью «КОНКВЕСТ». Все права защищены.</p>

@@ -26,15 +26,18 @@ function TradingViewWidget() {
               "MSFT|1D"
             ],
             [
+              "OANDA:EURUSD|1D"
+            ],
+            [
               "BINANCE:BTCUSDT|1D"
             ]
           ],
           "chartOnly": false,
-          "width": 1000,
-          "height": 500,
+          "width": "100%",
+          "height": "100%",
           "locale": "ru",
           "colorTheme": "light",
-          "autosize": false,
+          "autosize": true,
           "showVolume": false,
           "showMA": false,
           "hideDateRanges": false,
@@ -70,7 +73,6 @@ function TradingViewWidget() {
   return (
     <div className="tradingview-widget-container" ref={container}>
       <div className="tradingview-widget-container__widget"></div>
-      {/* <div className="tradingview-widget-copyright"><a href="https://ru.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Все рынки на TradingView</span></a></div> */}
     </div>
   );
 }

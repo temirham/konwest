@@ -9,9 +9,9 @@ const AboutSection = () => {
   return (
     <section id="about" className="consulting-section">
       <div className="about-container">
-        <div className="icon-bear">
+        {/* <div className="icon-bear">
           <Icon icon={bearHeadIcon} />
-        </div>
+        </div> */}
         <div className="about-content">
           <h2>О нас</h2>
           <p>
@@ -24,9 +24,9 @@ const AboutSection = () => {
             предоставлять высококачественные услуги, учитывая уникальные потребности каждого клиента.
           </p>
         </div>
-        <div className="icon-bull" >
+        {/* <div className="icon-bull" >
           <Icon icon={chargingBullIcon} />
-        </div>
+        </div> */}
       </div>
     </section>
   );
