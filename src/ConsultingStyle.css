@@ -57,6 +57,7 @@ body {
 
 .consulting-header {
   min-height: 320px;
+  /* margin-left: 3vh; */
   background: #847462 no-repeat center/cover url("./img/1725003_12120.svg");
   color: #ffffff;
   width: 100%;

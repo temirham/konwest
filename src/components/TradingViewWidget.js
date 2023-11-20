@@ -14,22 +14,19 @@ function TradingViewWidget() {
         {
           "symbols": [
             [
-              "Apple",
-              "AAPL|1D"
-            ],
-            [
-              "Google",
-              "GOOGL|1D"
-            ],
-            [
-              "Microsoft",
-              "MSFT|1D"
-            ],
-            [
-              "OANDA:EURUSD|1D"
-            ],
-            [
               "BINANCE:BTCUSDT|1D"
+            ],
+            [
+              "BINANCE:ETHUSDT|1D"
+            ],
+            [
+              "NASDAQ:TSLA|1D"
+            ],
+            [
+              "NASDAQ:MSFT|1D"
+            ],
+            [
+              "NASDAQ:AAPL|1D"
             ]
           ],
           "chartOnly": false,

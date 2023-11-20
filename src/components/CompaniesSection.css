@@ -1,0 +1,40 @@
+/* CompaniesSection.css */
+.companies-section {
+    padding: 2em;
+  }
+  
+  .companies-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .company-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .company-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .company-logo {
+    max-width: 100%; /* Максимальная ширина логотипа равна 100% от родительского контейнера */
+    margin-bottom: 1em;
+  }
+  
+  .company-name {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .company-description {
+    font-size: 1.1em;
+  }
+  
