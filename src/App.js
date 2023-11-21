@@ -13,7 +13,6 @@ import Nav from 'react-bootstrap/Nav';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('services');
-  const [isOpen, setIsOpen] = useState(false);
   const handleNavClick = (section) => {
     setCurrentSection(section);
   };
