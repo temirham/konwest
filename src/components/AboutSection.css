@@ -24,7 +24,7 @@
 .icon-bull,
 .icon-bear {
   font-size: 10em;
-  animation: icon-move 2s ease-in-out infinite alternate; /* Анимация движения иконок */
+  animation: icon-move 2s ease-in-out infinite alternate; 
 }
 
 @keyframes icon-move {
